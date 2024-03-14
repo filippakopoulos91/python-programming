@@ -1,6 +1,10 @@
-sum = 0
+def sumOf10():
 
-for i in range(1, 11):
-    sum += i
+    sum = 0
 
-print(sum)   
+    for i in range(1, 11):
+        sum += i
+
+    print(sum)   
+
+sumOf10()
